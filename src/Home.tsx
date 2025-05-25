@@ -1,12 +1,12 @@
-import birthdayCard from "./assets/Blue Illustrative First Birthday Invitation.jpg";
 import styles from "./home.module.css";
 import { Link } from "react-router-dom";
+import birthdayVideo from "./assets/Red & Blue Modern Birthday Party Mobile Video (1).mp4";
 
 function Home() {
   return (
     <>
       <div>
-        <img src={birthdayCard} className={styles.card} />
+        <video src={birthdayVideo} className={styles.card} autoPlay muted playsInline></video>
       </div>
       <div className={styles.buttonRow}>
         <Link to="https://maps.app.goo.gl/MWxSsyxSFnQMhvyJ7">
