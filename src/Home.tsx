@@ -8,17 +8,17 @@ function Home() {
       <div>
         <img src={birthdayCard} className={styles.card} />
       </div>
-      <div>
+      <div className={styles.buttonRow}>
         <Link to="https://maps.app.goo.gl/MWxSsyxSFnQMhvyJ7">
           <button className="btn btn-primary">
             Location <i className="bi bi-geo-alt"></i>
           </button>
         </Link>
         <Link to="tel:+91 8095337176" >
-          <button className="btn btn-primary" style={{position: 'relative', left:'55px'}}>Phone 1 <i className="bi bi-telephone"></i></button>
+          <button className="btn btn-primary  ${styles.buttonAnimation}" style={{position: 'relative', left:'40px', animationDelay: "0.9s"}}>Phone 1 <i className="bi bi-telephone"></i></button>
         </Link>
         <Link to="tel:+91 8660459580" >
-          <button className="btn btn-primary" style={{position: 'relative', left:'95px'}}>Phone 2 <i className="bi bi-telephone"></i></button>
+          <button className="btn btn-primary  ${styles.buttonAnimation}" style={{position: 'relative', left:'77px', animationDelay: "0.9s"}}>Phone 2 <i className="bi bi-telephone"></i></button>
         </Link>
       </div>
     </>

@@ -1,9 +1,22 @@
+@keyframes fadeScaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .card{
-    width: 400px;
+    width: 390px;
     height: 620px;
+    animation: fadeScaleIn 1s ease forwards;
 }
 
-.locationBtn{
-    
+.buttonAnimation {
+  animation: fadeScaleIn 0.7s ease forwards;
+  animation-delay: 0.5s;
+  opacity: 0; /* Start hidden */
 }
-
