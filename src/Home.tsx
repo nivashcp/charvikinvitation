@@ -1,6 +1,6 @@
 import styles from "./home.module.css";
 import { Link } from "react-router-dom";
-import birthdayVideo from "./assets/Red & Blue Modern Birthday Party Mobile Video (1).mp4";
+import birthdayVideo from "./assets/InShot_20250526_021726696.mp4";
 
 function Home() {
   return (
